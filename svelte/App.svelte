@@ -1,15 +1,15 @@
 <script>
-	let counter = 0;
+	let count = 0;
 
 	function increment() {
-		counter += 1;
+		count += 1;
 	}
 
 	function decrement() {
-		counter -= 1;
+		count -= 1;
 	}
 </script>
 
-<h1>Counter: {counter}</h1>
+<h1>Counter: {count}</h1>
 <button on:click={increment}>+</button>
 <button on:click={decrement}>-</button>

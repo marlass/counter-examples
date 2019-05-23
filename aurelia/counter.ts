@@ -1,10 +1,10 @@
 export class Counter {
-    counter = 0;
+    count = 0;
     
     increment() {
-        this.counter += 1;
+        this.count += 1;
     }
     decrement() {
-        this.counter -= 1;
+        this.count -= 1;
     }
 }
